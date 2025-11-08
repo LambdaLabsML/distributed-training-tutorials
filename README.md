@@ -19,7 +19,7 @@ The guide is written entirely in very minimal standard pytorch, using `transform
 4. [Chapter 4](./04-fully-sharded-data-parallel/) - Upgrades the training script to **use FSDP** instead of DDP for more optimal memory usage.
 5. [Chapter 5](./05-training-llama-405b/) - Upgrades the training script to **train Llama-405b**.
 6. [Chapter 6](./06-tensor-parallel/) - Upgrades our single GPU training script to support **tensor parallelism**.
-7. [Chapter 7](./06-2d-parallel/) - Upgrades our TP training script to use **2d parallelism (FSDP + TP)**.
+7. [Chapter 7](./07-2d-parallel/) - Upgrades our TP training script to use **2d parallelism (FSDP + TP)**.
 8. [Alternative Frameworks](./alternative-frameworks/) - Covers different frameworks that all work with pytorch under the hood.
 9. [Diagnosing Errors](./diagnosing-errors/) - Best practices and how tos for **quickly diagnosing errors** in your cluster.
 10. [Related Topics](./related-topics/) - Topics that you should be aware of when distributed training.
